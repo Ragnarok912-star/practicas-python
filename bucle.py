@@ -9,3 +9,6 @@ capitales = {"España":"Madrid", "Colombia": "Bogot D.C"}
 
 for capital in capitales.values():
     print(capital)
+
+for pais, capi in capitales.items():
+    print (f"Pais: {pais} capital:, {capi}")
