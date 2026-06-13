@@ -1,35 +1,11 @@
-#bucle for#
-
-#recorrer listas 
-
-#frutas = ["manzana","pera","uva"]
-#for c  in frutas:
-#    print(c)
-
-#imprimir un rango
-#for cont in range(10):
-#    print(cont)
-
-#rango con inicio fin, y paso 
-#for cont in range(0,10,1):
-#   print(cont)
+nom = ["Ana","Pedro","Juan","Carlos"]
+ed = [57,89,12,18]
+for n,e in zip(nom,ed):
+    print(f"Nombre: {n} tiene {e} Años")
+    
 
 
-#frutas = ["manzana","pera","uva"]
+capitales = {"España":"Madrid", "Colombia": "Bogot D.C"}
 
-#for f,index  in enumerate(frutas):
-#   print(index,f)
-
-#total = 0
-#for num in range(1,10):
-#   total += num
-#   print(total)
-
-
-for num in range(2, 111):
-    if num == 1:
-        break      # sale del bucle cuando num es 7
-    if num % 2 == 0:
-        continue   # salta los números pares
-    print(num)     # imprime solo números impares hasta 6
-
+for capital in capitales.values():
+    print(capital)
