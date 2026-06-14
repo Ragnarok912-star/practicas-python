@@ -6,7 +6,7 @@ while True:
     print (f"{c} x {i} = {resultado}")
     
     if i == 9:
-       print (end="")
+       print (end=".")
        c += 1
        i = 0
     if c == 9:
